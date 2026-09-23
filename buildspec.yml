@@ -6,7 +6,7 @@ phases:
       - echo "No dependencies to install for the status board site"
   build:
     commands:
-      - echo "Validating site files"
+      - echo "Validating site files 2"
       - test -f index.html
       - test -f styles.css
       - echo "Packaging the release"
